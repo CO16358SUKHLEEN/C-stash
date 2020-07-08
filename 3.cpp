@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-vector<int> reverse(vector<int> &a)
+vector<int> reverse(vector<int> &a)          //rotation through reverse algorithm
 {
     vector<int> temp;
     for (int i = a.size() - 1; i >= 0; i--)
