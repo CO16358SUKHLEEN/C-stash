@@ -24,4 +24,6 @@ int main()
     for(int j = 0; j< b.size(); j++){
         cout<<b.at(j)<<",";
     }
+
+    return 0;
 }
